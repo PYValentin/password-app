@@ -121,6 +121,11 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
 }
 
 body {
@@ -144,11 +149,11 @@ body {
     margin-top: 0;
   }
   .input__wrapper {
-    margin: 30px 0;
+    margin: 80px 0;
   }
   .input {
-    width: 50px;
-    height: 50px;
+    width: 70px;
+    height: 70px;
     margin: 0 10px;
     border-radius: 5px;
     border: none;
